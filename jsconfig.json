@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "jsx": "react",
+    "paths": {
+      "_/*": ["src/*"],
+      "_components/*": ["src/components"],
+      "_assets/*": ["src/assets"],
+      "_views/*": ["src/views"],
+      "_routes/*": ["src/routes"],
+      "_utils/*": ["src/utils"],
+      "_hooks/*": ["src/hooks"],
+      "_services/*": ["src/services"],
+    },
+  },
+  "exclude": ["node_modules", "dist", "dist-server"]
+}

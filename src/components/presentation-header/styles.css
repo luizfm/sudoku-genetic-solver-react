@@ -1,0 +1,29 @@
+.presentation-header {
+  width: 100%;
+  background-color: var(--black-100);
+  border-radius: 0.8rem;
+  padding: 3.2rem;
+  color: var(--typography);
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  display: grid;
+  grid-template: 1fr repeat(2, auto) / auto 1fr 22.3rem;
+  grid-template-areas: 'title . logo' 'university . logo' 'teacher . logo';
+  align-items: center;
+
+  &-title {
+    grid-area: title;
+  }
+
+  &-university {
+    grid-area: university;
+  }
+
+  &-teacher {
+    grid-area: teacher;
+  }
+
+  .ies-logo {
+    grid-area: logo;
+  }
+}

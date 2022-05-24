@@ -5,4 +5,18 @@
   --gray-40: #666666;
   --gray-80: #333333;
   --gray-100: #222222;
+
+  --background: #2a2a2a;
+  --black-100: #1e1e1e;
+
+  --primary-200: #bb86fc;
+  --primary-500: #6200ee;
+  --primary-variant-700: #3700b3;
+
+  --secondary-200: #03dac6;
+  --secondary-variant-900: #018786;
+
+  --typography: #dcdcdc;
+  --label: #717171;
+  --error: #cf6679;
 }

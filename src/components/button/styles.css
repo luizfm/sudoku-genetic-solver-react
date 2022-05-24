@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.8rem;
+  width: 100%;
+  border-radius: 0.4rem;
+  color: var(--typography);
+  transition: filter 0.3s ease-in-out;
+  border: 0;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
+
+/* BUTTON THEMES */
+
+.primary {
+  background-color: var(--primary-200);
+}
+
+.primary-variant {
+  background-color: var(--primary-variant-500);
+}
+
+.secondary {
+  background-color: var(--secondary-200);
+}
+
+.secondary-variant {
+  background-color: var(--secondary-variant-900);
+}
+
+.red {
+  background-color: var(--error);
+}

@@ -1,0 +1,21 @@
+.algorithmn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 4.8rem;
+  color: var(--label);
+  padding: 2.4rem 0;
+
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .best-cost {
+    padding: 2.4rem;
+    border-radius: 0.8rem;
+    background-color: var(--error);
+    color: var(--typography);
+    font-size: 1.6rem;
+  }
+}

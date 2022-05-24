@@ -1,0 +1,23 @@
+.home-container {
+  background-color: var(--background);
+  padding-top: 15rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+
+  .top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 22.8rem;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .sudoku-table {
+    margin: 14rem 0 5rem;
+  }
+}

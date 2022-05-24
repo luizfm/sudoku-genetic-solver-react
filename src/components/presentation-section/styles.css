@@ -1,0 +1,28 @@
+.presentation-section {
+  max-width: 144rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template: auto auto / 26rem 1fr;
+  grid-template-areas: 'header header' 'aside sudoku-image';
+  flex-direction: column;
+  row-gap: 0.8rem;
+  column-gap: 1.6rem;
+  z-index: 2;
+  width: 100%;
+
+  .presentation-header {
+    grid-area: header;
+  }
+
+  .team-aside {
+    grid-area: aside;
+  }
+
+  .sudoku-image {
+    grid-area: sudoku-image;
+    border-radius: 0.8rem;
+    width: 100%;
+    height: 63rem;
+    object-fit: cover;
+  }
+}

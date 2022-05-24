@@ -1,0 +1,52 @@
+.sudoku-table {
+  &-label {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: var(--label);
+    text-align: center;
+    margin: 0 auto 3.2rem;
+    max-width: 35rem;
+  }
+
+  .row {
+    display: flex;
+
+    .bottom-border {
+      border-bottom-color: var(--typography);
+    }
+
+    .top-border {
+      border-top-color: var(--typography);
+    }
+
+    .left-border {
+      border-left-color: var(--typography);
+    }
+
+    .right-border {
+      border-right-color: var(--typography);
+    }
+  }
+
+  .buttons-container {
+    margin-top: 2.4rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1.6rem;
+  }
+
+  .label {
+    margin-top: 3.2rem;
+    display: block;
+    font-size: 1.4rem;
+    color: var(--label);
+  }
+
+  .custom-input {
+    margin-top: 0.8rem;
+    width: 100%;
+    border-radius: 0.8rem;
+    height: 4.8rem;
+    padding: 0 1.2rem;
+  }
+}

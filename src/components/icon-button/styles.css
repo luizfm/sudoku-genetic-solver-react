@@ -1,0 +1,9 @@
+.icon-button {
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

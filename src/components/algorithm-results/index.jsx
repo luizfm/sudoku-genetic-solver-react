@@ -45,12 +45,6 @@ const AlgorithmResults = ({ data, onGenerateData, cost }) => {
     }
   }, [onGenerateData])
 
-  console.log(
-    splitInput(
-      '000000010400000000020000000000050407008000300001090000300400200050100000000806000'
-    )
-  )
-
   return (
     <div className={styles['algorithmn-wrapper']}>
       <h2 className={styles['title']}>Results</h2>

@@ -153,6 +153,7 @@ export class GeneticSudokuSolver {
           board: population[0],
           cost: cost(population[0]),
           currentGeneration,
+          totalCostData,
         }
       }
 
@@ -172,6 +173,8 @@ export class GeneticSudokuSolver {
     }
 
     population.sort((a, b) => cost(a) - cost(b))
+
+    console.log(totalCostData)
 
     return {
       board: population[0],
